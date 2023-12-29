@@ -27,9 +27,6 @@ public class Day01 : BaseDay
 
     public override ValueTask<string> Solve_2()
     {
-        int[] digits = this._input.Select(c => int.Parse(c.ToString())).ToArray();
         return new (""+InverseCaptcha(true));
-
-
     }
 }
