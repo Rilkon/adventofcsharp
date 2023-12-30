@@ -1,8 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Net;
-
-namespace AdventOfCode;
+﻿namespace AdventOfCode;
 
 
 public class Day03 : MyBaseDay
