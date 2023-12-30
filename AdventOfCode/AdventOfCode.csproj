@@ -16,11 +16,8 @@
 
   <ItemGroup>
     <None Update="aocsharp2017inputs\*">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-
-
 
 </Project>
