@@ -27,5 +27,5 @@ jobs:
       run: dotnet build --no-restore
       
     - name: Solve all
-      run: dotnet run -c Debug --no-build -- all
+      run: dotnet run all
       working-directory: ./AdventOfCode
