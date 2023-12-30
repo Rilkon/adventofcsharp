@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode;
 
-public class Day02 : BaseDay
+public class Day02 : MyBaseDay
 {
     private readonly string _input;
 

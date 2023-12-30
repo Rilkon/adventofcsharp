@@ -5,7 +5,7 @@ using System.Net;
 namespace AdventOfCode;
 
 
-public class Day03 : BaseDay
+public class Day03 : MyBaseDay
 {
     private readonly string _input;
 
@@ -32,7 +32,7 @@ public class Day03 : BaseDay
     private static long SquareSpiralOfSums(int target)
     {
         // https://oeis.org/A141481/b141481.txt
-        var path = Path.Combine(Directory.GetCurrentDirectory()+ "/Inputs/", "A141481.txt");
+        var path = Path.Combine(Directory.GetCurrentDirectory()+"/aocsharp2017inputs", "A141481.txt");
         string part2 = File.ReadAllText(path);
 
 
